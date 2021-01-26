@@ -1,0 +1,73 @@
+    <form class="d-flex flex-column" method = 'GET' action="/">
+    {% csrf_token %}
+        <div class="mb-3">
+            <h5 class="h5">Марка автомобиля</h5>
+
+            <div class="form-check form-check-inline">
+                {% for car in cars %}
+                <input class="form-check-input mr-3" name = 'creater[]' type="checkbox" id="inlineCheckbox1" value="{{ car.0 }}">
+                <label class="form-check-label mr-3" for="inlineCheckbox1">{{ car.0 }}</label>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="mb-3">
+            <h5 class="h5">Модель автомобиля</h5>
+
+            <div class="form-check form-check-inline">
+                {% for model in models %}
+                <input class="form-check-input mr-3" name = 'model[]' type="checkbox" id="inlineCheckbox1" value="{{ model.0 }}">
+                <label class="form-check-label mr-3" for="inlineCheckbox1">{{ model.0 }}</label>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="mb-3 d-flex flex-row">
+            <h5 class="h5 mr-3">Коробка передач</h5>
+            <div class="form-check form-check-inline">
+                {% for type in transmission %}
+                <input class="form-check-input mr-3" name = 'transmission[]' type="checkbox" id="inlineCheckbox1" value="{{ type.0 }}">
+                <label class="form-check-label mr-3" for="inlineCheckbox1">
+                    {% if type.0 == 1 %}
+                        Механика
+                    {% elif type.0 == 2 %}
+                        Автомат
+                    {% else %}
+                        Робот
+                    {% endif %}
+                </label>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="mb-3 d-flex flex-row">
+            <h5 class="h5 mr-3">Год выпуска</h5>
+            <div class="form-check form-check-inline">
+                {% for year in year_create %}
+                <input class="form-check-input mr-3" name = 'year_create[]' type="checkbox" id="inlineCheckbox1" value="{{ year.0 }}">
+                <label class="form-check-label mr-3" for="inlineCheckbox1">{{ year.0 }}</label>
+                {% endfor %}
+            </div>
+        </div>
+    <div class="mb-3 d-flex flex-row">
+            <h5 class="h5 mr-3">Цвет кузова</h5>
+            <div class="form-check form-check-inline">
+                {% for color in colors %}
+                <input class="form-check-input mr-3" name = 'color[]' type="checkbox" id="inlineCheckbox1" value="{{ color.0 }}">
+                <label class="form-check-label mr-3" for="inlineCheckbox1">
+                    {% if color.0 == 1 %}
+                        Черный
+                    {% elif color.0 == 2 %}
+                        Красный
+                    {% elif color.0 == 3 %}
+                        Белый
+                    {% elif color.0 == 4 %}
+                        Мокрый асфальт
+                    {% else %}
+                        Желтый
+                    {% endif %}
+                </label>
+                {% endfor %}
+            </div>
+        </div>
+
+        <button class="btn btn-success mb-3" type="submit" style="width: 200px">Поиск</button>
+
+    </form>

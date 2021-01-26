@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block search %}
+    {% include "cars_filter/search_block.html" %}
+{% endblock %}
+
+
+{% block content %}
+    {% for car in object_list %}
+    <div class="card m-3" style="width: 30%;">
+        <img class="card-img-top p-2" style="width: 100%; height: 220px" src="{{ car.photo.url }}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{ car.creater }} {{ car.model }} ({{ car.year_create }})</h5>
+            <p class="card-text"> <span class="h6"> Коробка передач: </span> {{ car.get_transmission_display }}</p>
+            <p class="card-text"> <span class="h6"> Цвет: </span>{{ car.get_color_display }}</p>
+        </div>
+    </div>
+    {% empty %}
+        <h5 class="h5 mt-3">По данным параметрам автомобили не найдены. Попробуйте изменить параметры поиска.</h5>
+    {% endfor %}
+{% endblock %}

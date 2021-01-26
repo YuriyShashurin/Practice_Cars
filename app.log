@@ -1,0 +1,1513 @@
+[17Jan 18:02:19] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[17Jan 18:02:30] WARNING [django.request:224] Not Found: /
+[17Jan 18:02:35] WARNING [django.request:224] Not Found: /
+[17Jan 18:02:46] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[17Jan 18:02:48] WARNING [django.request:224] Not Found: /
+[17Jan 18:04:18] ERROR [django.request:224] Internal Server Error: /admin/cars_filter/car/add/
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 814, in log_addition
+    object_repr=str(object),
+TypeError: __str__ returned non-string (type NoneType)
+[17Jan 18:04:33] ERROR [django.request:224] Internal Server Error: /admin/cars_filter/car/add/
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\contrib\admin\options.py", line 814, in log_addition
+    object_repr=str(object),
+TypeError: __str__ returned non-string (type NoneType)
+[17Jan 18:04:46] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\models.py changed, reloading.
+[17Jan 18:04:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[17Jan 18:05:32] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\models.py changed, reloading.
+[17Jan 18:05:33] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[17Jan 18:05:53] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\models.py changed, reloading.
+[17Jan 18:05:54] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[17Jan 18:14:06] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\Cars\settings.py changed, reloading.
+[17Jan 18:14:07] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:04:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:19:09] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:19:14] WARNING [django.request:224] Not Found: /
+[23Jan 22:19:15] WARNING [django.request:224] Not Found: /favicon.ico
+[23Jan 22:19:33] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[23Jan 22:19:35] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:20:00] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 22:20:01] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:20:32] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 22:20:34] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:21:24] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 22:21:25] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:21:26] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, cars_filter/car_list.html
+[23Jan 22:23:09] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\Cars\settings.py changed, reloading.
+[23Jan 22:23:10] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:23:10] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, cars_filter/car_list.html
+[23Jan 22:23:54] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\Cars\settings.py changed, reloading.
+[23Jan 22:23:57] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:23:59] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html, cars_filter/car_list.html
+[23Jan 22:26:20] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\Cars\settings.py changed, reloading.
+[23Jan 22:26:21] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 22:26:50] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 22:26:51] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:18:23] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:18:24] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:18:47] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:18:48] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:19:50] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:19:51] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:22:51] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:22:52] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:23:15] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:23:16] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:24:17] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:24:18] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:24:37] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:24:38] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:26:50] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 14, in get_context_data
+    context['cars'] = set(cars)
+TypeError: unhashable type: 'dict'
+[23Jan 23:28:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:28:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:28:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:33:16] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:33:17] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:33:17] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:33:18] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:33:30] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:33:42] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:34:17] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:34:18] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:34:22] WARNING [django.request:224] Not Found: /favicon.ico
+[23Jan 23:34:29] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:37:35] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:37:35] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:37:36] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:37:36] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:37:56] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:37:56] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:37:57] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:37:57] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:37:58] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 13, in get_context_data
+    cars = models.Car.objects.order_by().key('model')
+AttributeError: 'QuerySet' object has no attribute 'key'
+[23Jan 23:41:15] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:41:16] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:41:17] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:41:17] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:41:44] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:41:45] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:41:45] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:41:46] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:42:15] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1863, in add_fields
+    join_info = self.setup_joins(name.split(LOOKUP_SEP), opts, alias, allow_many=allow_m2m)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1565, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'Creater' into field. Choices are: color, creater, id, model, transmission, year_create
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 13, in get_context_data
+    cars = models.Car.objects.order_by().values('Creater').distinct()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 841, in values
+    clone = self._values(*fields, **expressions)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 836, in _values
+    clone.query.set_values(fields)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 2174, in set_values
+    self.add_fields(field_names, True)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1885, in add_fields
+    raise FieldError("Cannot resolve keyword %r into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'Creater' into field. Choices are: color, creater, id, model, transmission, year_create
+[23Jan 23:42:25] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:42:25] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:42:26] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:42:26] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:48:00] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:48:00] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:48:01] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:48:01] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:49:39] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 445, in parse
+    raise self.error(token, 'Empty variable tag on line %d' % token.lineno)
+django.template.exceptions.TemplateSyntaxError: Empty variable tag on line 9
+[23Jan 23:51:11] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader_tags.py", line 213, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 449, in parse
+    raise self.error(token, e)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'car[0]'
+[23Jan 23:54:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:54:15] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[23Jan 23:54:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[23Jan 23:54:16] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:01:11] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[24Jan 00:01:12] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:01:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:01:13] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:01:34] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[24Jan 00:01:34] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[24Jan 00:01:35] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:01:35] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:01:46] WARNING [django.request:224] Not Found: /search/search/
+[24Jan 00:02:10] WARNING [django.request:224] Not Found: /search/search/
+[24Jan 00:07:33] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:07:33] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:07:34] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:07:34] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:07:44] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:07:44] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:07:45] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:07:45] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:08:06] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:08:06] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:08:07] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:08:07] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:11:19] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:11:20] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:11:20] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:11:21] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:12:35] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:12:36] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:12:36] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:12:37] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:14:30] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:14:31] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:14:31] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:14:32] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:14:51] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:14:51] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:14:52] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:14:52] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:15:19] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:15:19] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:15:20] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:15:20] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:18:13] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:18:13] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:18:14] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:18:14] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:23:21] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:23:21] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:23:22] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:23:22] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:24:31] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:24:31] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:24:32] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:24:32] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:25:36] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:25:40] WARNING [django.request:224] Not Found: /search/search/
+[24Jan 00:26:25] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:26:51] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:26:51] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:26:52] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:26:52] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:00] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:00] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:01] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:01] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:15] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:16] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:16] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:24] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:24] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:25] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:26] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:41] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:41] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:42] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:43] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:28:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:28:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:29:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:29:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:30:29] WARNING [django.request:224] Not Found: /search/search/
+[24Jan 00:32:46] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:32:46] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:32:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:32:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:34:10] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:34:11] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:34:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:34:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:34:30] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:34:31] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:34:32] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:34:32] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:35:42] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:35:42] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:35:43] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:35:43] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:35:54] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:35:55] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:35:56] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:35:56] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:40:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:40:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:40:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:40:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:40:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:41:31] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:41:31] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:41:33] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:41:33] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:41:46] WARNING [django.request:224] Not Found: /search/search/
+[24Jan 00:56:36] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:56:36] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:56:37] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:56:37] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:56:51] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[24Jan 00:56:51] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[24Jan 00:56:52] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:56:52] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:57:55] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:57:56] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:57:57] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:57:57] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:57:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:57:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:58:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:58:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:58:50] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:58:51] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:58:51] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:58:52] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:58:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:58:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:58:58] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:58:59] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:59:04] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:59:05] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 00:59:06] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 00:59:06] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:00:16] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:00:16] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:00:17] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:00:17] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:01:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:01:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:01:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:01:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:01:16] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 13, in get_context_data
+    context = super().get_context_data(**kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 117, in get_context_data
+    context_object_name = self.get_context_object_name(queryset)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 109, in get_context_object_name
+    return '%s_list' % object_list.model._meta.model_name
+AttributeError: 'DeferredAttribute' object has no attribute '_meta'
+[24Jan 01:02:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:02:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:02:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:02:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:02:19] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 19, in get_queryset
+    qs = super(CarsView, self).get_queryset()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 35, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: CarsView is missing a QuerySet. Define CarsView.model, CarsView.queryset, or override CarsView.get_queryset().
+[24Jan 01:02:41] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:02:41] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:02:42] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:02:42] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:02:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:02:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:03:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:03:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:03:01] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 19, in get_queryset
+    qs = super(CarsView, self).get_queryset()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 35, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: CarsView is missing a QuerySet. Define CarsView.model, CarsView.queryset, or override CarsView.get_queryset().
+[24Jan 01:03:17] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:03:17] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:03:18] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:03:18] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:03:34] WARNING [django.request:101] Method Not Allowed (POST): /
+[24Jan 01:03:34] WARNING [django.request:224] Method Not Allowed: /
+[24Jan 01:13:55] WARNING [django.request:101] Method Not Allowed (POST): /
+[24Jan 01:13:55] WARNING [django.request:224] Method Not Allowed: /
+[24Jan 01:14:45] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:14:46] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:14:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:14:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:17:21] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:17:22] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:17:23] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:17:23] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:19:34] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:19:34] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:19:35] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:19:35] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:20:38] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:20:38] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:20:39] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:20:39] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:20:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:20:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:20:58] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:20:58] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:23:45] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:23:46] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:23:46] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:23:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:26:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:26:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:26:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:26:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:27:11] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:27:11] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:27:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:27:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:28:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:28:14] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:28:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:28:15] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:28:56] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:28:56] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:28:57] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:28:58] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:30:17] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:30:17] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:30:18] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:30:18] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:30:21] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:30:21] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:30:22] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:30:22] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:30:58] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:30:58] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:30:59] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:30:59] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:31:34] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:31:34] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:31:35] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:31:35] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:31:46] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:31:46] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:31:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:31:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:33:02] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:33:02] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[24Jan 01:33:03] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[24Jan 01:33:04] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:08:33] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:12:01] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:12:01] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:12:01] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:12:02] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:12:12] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:12:12] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:12:13] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:12:13] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:12:23] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:12:23] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:12:24] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:12:24] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:13:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:13:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:13:45] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:13:45] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:14:39] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:14:39] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:14:40] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:14:40] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:15:04] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:15:04] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:15:05] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:15:05] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:15:23] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:15:23] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:15:24] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:15:24] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:15:38] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:15:39] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:15:39] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:15:40] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than Q.
+[25Jan 22:15:40] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:16:40] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:16:40] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:16:41] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:16:41] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:16:42] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than QuerySet.
+[25Jan 22:17:49] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:17:49] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:17:50] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:17:50] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:18:47] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:18:47] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:18:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:18:48] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:21:06] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:21:07] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:21:08] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:21:08] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:21:15] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:21:16] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:21:16] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:21:17] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:21:52] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:21:53] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:21:53] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:21:54] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:22:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:22:58] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:22:58] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:22:59] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:23:31] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:23:32] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:23:32] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:23:32] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:29:08] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:29:08] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:29:09] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:29:09] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:29:10] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 32, in get_queryset
+    return models.Car.objects.filter(query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'csrfmiddlewaretoken' into field. Choices are: color, creater, id, model, transmission, year_create
+[25Jan 22:29:54] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 32, in get_queryset
+    return models.Car.objects.filter(query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'csrfmiddlewaretoken' into field. Choices are: color, creater, id, model, transmission, year_create
+[25Jan 22:31:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:31:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:32:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:32:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:37:10] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:37:10] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:37:11] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:37:11] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:38:33] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:38:33] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:38:34] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:38:34] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:42:04] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:42:04] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:42:05] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:42:05] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:42:42] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:42:42] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:42:43] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:42:43] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:42:48] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:42:49] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:43:06] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:43:06] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:46:02] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:46:03] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:46:11] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:46:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:47:59] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:48:00] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:50:38] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:50:39] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:53:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:53:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:53:56] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:53:57] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:54:25] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:54:26] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 22:58:18] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 22:58:19] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:06:19] WARNING [django.request:224] Not Found: /...
+[25Jan 23:06:38] WARNING [django.request:224] Not Found: /...
+[25Jan 23:07:07] WARNING [django.request:224] Not Found: /...
+[25Jan 23:08:09] WARNING [django.request:224] Not Found: /...
+[25Jan 23:08:27] WARNING [django.request:224] Not Found: /...
+[25Jan 23:08:46] WARNING [django.request:224] Not Found: /...
+[25Jan 23:08:53] WARNING [django.request:224] Not Found: /...
+[25Jan 23:09:05] WARNING [django.request:224] Not Found: /...
+[25Jan 23:09:57] WARNING [django.request:224] Not Found: /...
+[25Jan 23:10:04] WARNING [django.request:224] Not Found: /...
+[25Jan 23:10:34] WARNING [django.request:224] Not Found: /...
+[25Jan 23:10:57] WARNING [django.request:224] Not Found: /...
+[25Jan 23:11:56] WARNING [django.request:224] Not Found: /...
+[25Jan 23:12:09] WARNING [django.request:224] Not Found: /...
+[25Jan 23:12:46] WARNING [django.request:224] Not Found: /...
+[25Jan 23:15:27] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\models.py changed, reloading.
+[25Jan 23:15:28] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:16:40] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\Cars\settings.py changed, reloading.
+[25Jan 23:16:41] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:18:32] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\models.py changed, reloading.
+[25Jan 23:18:33] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:21:36] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:25:33] WARNING [django.request:224] Not Found: /car.photo.url
+[25Jan 23:26:43] WARNING [django.request:224] Not Found: /media/cars_photo/BMW_3.jpg
+[25Jan 23:27:45] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[25Jan 23:27:46] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[25Jan 23:27:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:27:47] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:28:01] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\urls.py changed, reloading.
+[25Jan 23:28:02] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:49:11] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 23:49:12] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 23:49:13] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:49:14] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:57:09] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 23:57:10] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[25Jan 23:57:10] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:57:11] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:57:13] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 18, in get_context_data
+    context['transmission'] = models.Car.objects.order_by().values_list('transmission').distinct().get_transmission_dispay()
+AttributeError: 'QuerySet' object has no attribute 'get_transmission_dispay'
+[25Jan 23:59:49] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\models.py changed, reloading.
+[25Jan 23:59:50] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\models.py changed, reloading.
+[25Jan 23:59:51] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:59:51] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[25Jan 23:59:56] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 18, in get_context_data
+    context['transmission'] = models.Car.objects.order_by().values_list('transmission').distinct().get_transmission_dispay()
+AttributeError: 'QuerySet' object has no attribute 'get_transmission_dispay'
+[26Jan 00:00:07] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:00:08] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:00:08] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:00:09] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:00:59] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:03:11] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\models.py changed, reloading.
+[26Jan 00:03:12] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:03:27] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:07:00] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:07:00] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:07:01] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:07:02] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:07:28] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:07:28] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:07:29] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:07:29] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:07:36] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 37, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1235, in build_filter
+    raise FieldError("Cannot parse keyword query as dict")
+django.core.exceptions.FieldError: Cannot parse keyword query as dict
+[26Jan 00:08:43] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 37, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1235, in build_filter
+    raise FieldError("Cannot parse keyword query as dict")
+django.core.exceptions.FieldError: Cannot parse keyword query as dict
+[26Jan 00:08:50] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 37, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1235, in build_filter
+    raise FieldError("Cannot parse keyword query as dict")
+django.core.exceptions.FieldError: Cannot parse keyword query as dict
+[26Jan 00:09:03] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:09:03] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:09:04] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:09:04] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:19:32] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:19:32] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:19:33] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:19:33] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:19:50] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 39, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'year_create' expected a number but got ''.
+[26Jan 00:20:25] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 39, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'year_create' expected a number but got ''.
+[26Jan 00:33:39] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Null'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 39, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'year_create' expected a number but got 'Null'.
+[26Jan 00:33:48] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Null'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 39, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'year_create' expected a number but got 'Null'.
+[26Jan 00:33:58] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 39, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'year_create' expected a number but got 'None'.
+[26Jan 00:44:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:44:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 00:44:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:44:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 00:47:18] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 40, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'year_create' expected a number but got ''.
+[26Jan 00:47:52] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 40, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'year_create' expected a number but got ''.
+[26Jan 00:48:35] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\views\generic\list.py", line 142, in get
+    self.object_list = self.get_queryset()
+  File "D:\Django_projects\my_projects\Cars\cars_filter\views.py", line 40, in get_queryset
+    return models.Car.objects.filter(get_query)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1237, in build_filter
+    return self._add_q(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'year_create' expected a number but got ''.
+[26Jan 01:04:03] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:17:01] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:17:01] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:17:02] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:17:02] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:17:44] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:17:44] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:17:45] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:17:45] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:17:52] ERROR [django.request:224] Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\test\utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\test\utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\Django_projects\my_projects\Cars\venv_cars\lib\site-packages\django\template\defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Http404' object is not iterable
+[26Jan 01:18:18] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:18:18] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:18:19] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:18:19] WARNING [django.request:224] Not Found: /
+[26Jan 01:18:19] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:20:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:20:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:20:57] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:20:58] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:24:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:24:57] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:24:58] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:24:58] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:26:23] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:26:23] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:26:24] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:26:24] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:33:02] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:33:02] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:33:03] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:33:03] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:33:54] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:33:54] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:33:55] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:33:55] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 01:35:21] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:35:21] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 01:35:22] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 16:12:53] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 16:18:25] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 16:18:26] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 16:18:26] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 16:18:27] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 16:19:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 16:19:43] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 16:19:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 16:19:44] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 16:20:07] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 16:20:07] INFO [django.utils.autoreload:240] D:\Django_projects\my_projects\Cars\cars_filter\views.py changed, reloading.
+[26Jan 16:20:08] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
+[26Jan 16:20:08] INFO [django.utils.autoreload:617] Watching for file changes with StatReloader
